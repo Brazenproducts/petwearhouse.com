@@ -122,6 +122,10 @@ h1,h2,h3,h4,h5{font-family:var(--font-heading);text-transform:uppercase;letter-s
 .guide-section{background:var(--card-bg);border:1px solid var(--border-color);border-radius:var(--radius);padding:2rem;margin:1.5rem 0}
 .guide-section h3{color:var(--white);margin-bottom:1rem}
 
+/* ===== FEATURE ART ===== */
+.feature-art{margin:1.25rem 0 2rem}
+.feature-art img{width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--border-color);background:var(--charcoal-mid);box-shadow:0 16px 36px rgba(0,0,0,.28)}
+
 /* ===== FOOTER ===== */
 .site-footer{background:var(--charcoal-light);border-top:3px solid var(--accent);padding:2rem 1.5rem;margin-top:3rem}
 .footer-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
